@@ -4,7 +4,7 @@ struct Foo {
 
 fn main() {
   let foo = Foo {x:42};
-  let f = & foo;
+  let f =  &foo;
   println!("{}", f.x);
   // f is dropped
   // foo is dropped
