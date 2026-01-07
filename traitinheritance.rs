@@ -1,4 +1,3 @@
-
 struct SeaCreature {
   pub name: String,
   noise: String,
